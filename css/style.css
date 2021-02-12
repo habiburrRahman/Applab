@@ -1,0 +1,440 @@
+/* global css go here */
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(36, 47, 81);
+}
+p{
+     color: rgb(97, 99, 104);
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* global css gone here */
+
+header{
+    width: 100%;
+    padding: 25px 0;
+    position: absolute;
+}
+header .nav-link{
+    margin:0px 5px;
+    color: #253669cc!important
+}
+.nav-link.active {
+    color: #242f51 !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* header css go here */
+.btn{
+    color: #fff !important;
+    background-color: #2500f9 !important;
+    padding: 10px 30px !important;
+    border-radius: 30px !important;  
+}
+/* banner css go here */
+.banner{
+    background: url(../images/header_bg.png) center no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.hints{
+    background-color: rgb(226, 234, 237);
+    border-radius: 25px;
+    display: inline-block;
+    padding-right: 15px;
+    color: #242f51;
+    font-weight: 600;
+}
+.flaticon-check-mark{
+    background-color: rgb(254 170 37);
+    color: #fff;
+    width: 38px;
+    height: 33px;
+    line-height: 33px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.banner p{
+    font-size: 18px;
+    width: 82%;
+}
+.button{
+    border:none;
+    color:#2500f9;
+    background-color:#fff;
+    padding: 10px 30px;
+    border-radius: 30px;  
+    transition: 0.3s ease-in-out;
+}
+.banner .button:hover{
+    color: #fff;
+    background-color: #2500f9;
+    padding: 10px 30px;
+    border-radius: 30px;  
+    transition: 0.4s ease-in-out;
+}
+/* sponsorship section go here */
+.sponsorship{
+    width: 100%;
+    padding: 60px 0;
+}
+.sponsorship h6{
+text-align: center;
+margin-bottom: 50px;
+font-weight: 600;
+}
+/* owl carousel slider */
+.sponsorship .owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.sponsorship .item{
+    text-align: center;
+}
+/* testimonial carousel slider */
+.testimonial-slider .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.testimonial-slider .owl-nav{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+/* testimonial carousel slider */
+.fa-star,.fa-star-half-alt{
+    color:#ffcc00;
+    margin: 10px 0px 30px 0px;
+}
+ /* feature section go here */
+ .feature{
+     width: 100%;
+     padding:60px 0;
+ }
+ .feature .head-title{
+    width: 80%;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.feature .title{
+    width: 80%;
+    margin-bottom: 50px;
+}
+ .feature .text-box1 .icon1,.third-row .icon1,.icon2,.icon3{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+.feature .text-box1 .icon1,.third-row .icon1,.icon2,.icon3{
+    color: #f55767;
+    background-color: #ffecef;
+}
+.feature .text-box1 .icon2,.third-row .icon2{
+    color: #2563ff;
+    background-color: #f4f4ff;  
+}
+.feature .text-box1 .icon3,.third-row .icon3{
+    color: #40975f;
+    background-color: #e4ffee;
+}
+.feature h5,.third-row h5{
+    font-weight: 600;
+}
+.feature .text-box1 .icon-text1 h5,.third-row .text1{
+    color: #f55767;
+}
+.feature .text-box1 .icon-text2 h5,.third-row .text2{
+    color: #40975f;
+}
+.feature .text-box1 .icon-text3 h5,.third-row .text3{
+    color: #2563ff;
+}
+.feature .text-box1 .icon-text1,.icon-text2,.icon-text3{
+    width: 50%;
+    margin-left: 20px;
+    line-height: 26px;
+}
+
+/* second row css go here */
+.second-row{
+    padding: 80px 0px 50px 0px;
+}
+.second-row h2{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+    border-right: 1px solid #4b4a4866;
+    padding-right: 55px;
+}
+.second-row p{
+    padding-left: 50px;
+    width: 85%;
+    margin: 30px 0px;
+    line-height: 28px;
+}
+/* third row css go here */
+.third-row{
+    margin-left: 25px;
+}
+.third-row .icon1,.icon2,.icon3{
+    margin-bottom:30px
+}
+.third-row p{
+    width: 80%;
+    line-height: 26px;
+}
+/* language section go here */
+.language{
+    width: 100%;
+    padding: 80px 0;
+}
+.language h2{
+width: 64%;
+font-size: 36px;
+font-weight: 600;
+line-height: 46px;
+}
+.language p{   
+width: 85%;   
+line-height: 26px;
+margin: 30px 0px;
+}
+/* key feature section go here */
+.key-feature{
+    width: 100%;
+    padding: 60px 0;
+}
+.key-feature h2{
+    width: 40%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    margin: auto;
+}
+.key-title{
+    width: 58%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 28px;
+}
+.key-feature i,.key-feature2 i{    
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    color: #000000;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.key-feature .icon1,.key-feature2 .icon1{
+    background-color: #FFECEF;
+}
+.key-feature .icon2{
+    background-color: #EAF9FF;
+}
+.key-feature .icon3,.key-feature2 .icon3{
+    background-color: #FFECEF;
+}
+.key-feature .icon4{
+    background-color: #E4FFEE;
+}
+.key-feature .icon5,.key-feature2 .icon5{
+    background-color: #F4F4FF;
+}
+.key-feature .icon6,.key-feature2 .icon6{
+    background-color: #FDEEE4;
+}
+.key-feature .icons p{
+    width: 75%;
+    margin: auto;
+    line-height: 26px;
+}
+/* key feature2 section css go here */
+.key-feature2{
+    width: 100%;
+    padding: 60px 0;
+}
+.key-feature2 h2{
+    width: 35%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.key-feature2 p{
+    width: 40%;
+}
+/* pricing section css go here */
+.pricing-section{
+    width: 100;
+    padding: 60px 0;
+}
+.pricing-section h2{
+    width: 60%;
+    font-size: 36px;
+    font-weight: 600;
+    margin: auto;
+}
+.pricing-section p{
+    width: 58%;
+    margin: 30px auto;
+}
+/* buttons */
+.border{
+    border-radius: 30px;
+    border: 2px solid #dee2e6 !important;
+}
+.dbl-btn .button{
+    color: rgb(97, 99, 104);
+}
+/* cards */
+.card{
+    border-color: rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin: 30px 4px;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 11px rgb(236 234 234 / 59%);
+    border: 1px solid #fff;
+}
+.card-header{
+    background-color: #fff;
+    border-bottom:none;
+}
+.card-header h2{
+    font-size: 60px;
+    padding: 35px 0px 6px 0px;
+}
+.card-header span{
+    font-size: 18px;
+    color: #999ca5;
+    font-weight: 400;
+}
+.card-header h5{
+    font-weight: 600;
+}
+.card-header p{
+    width: 100%;
+    color: rgb(153, 156, 165);
+    line-height: 26px;
+    margin: 0px;
+}
+.card-body li{
+    width: 100%;
+    color: rgb(153, 156, 165);
+    line-height: 26px;
+    margin: 18px 0;
+}
+.card-body p{
+    color: #2500f9;
+}
+/* testimonial section css go here */
+.testimonial {
+    width: 100%;
+    padding: 60px 0;
+}
+.testimonial h2{
+    width: 75%;
+    line-height: 46px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.testimonial p{
+    width: 75%;
+    margin: 30px 0;
+}
+.client-info h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.client-info span{
+    font-size: 18px;
+}
+/* faq section css go here */
+.faq-section{
+    width:100%;
+    padding: 60px 0px 70px 0px;
+}
+.faq-section h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.faq-section p{
+    width: 58%;
+    margin: 35px auto 50px auto;
+}
+/* accordion css */
+.accordion-button{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(36,47,81);
+}
+.accordion-button:focus {
+     border-color: rgba(0,0,0,.125);
+     box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(36,47,81);
+}
+.accordion-button::after {
+    background-image:url(../images/plus_icon.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../images/minas_icon.png);
+}
+.accordion-body p{
+    width: 100%;
+    margin: 15px 0px;
+    text-align: left;
+    color: #616368;
+}
+/* download section css go here */
+.download-section{
+    width: 100%;
+    padding: 60px 0;
+}
+.download-section h2{
+    font-size: 46px;
+    font-weight: 600;
+}
+/* footer section css go here */
+footer{
+    background-color: rgb(9, 20, 46);
+}
+footer li,a,p{
+    color: rgb(39, 48, 67);
+    transition: all 0.3s ease-in-out;
+}
+footer li a i{
+    font-size: 30px;
+}
+footer a:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+footer p:hover{
+    color: #fff;
+}
